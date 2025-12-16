@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    
+    /* Gradiente escuro semi-transparente (0.8) EM CIMA da imagem */
+    background-image: 
+        linear-gradient(rgba(12, 16, 33, 0.65), rgba(12, 16, 33, 0.65)),
+        url('/img/background/Gemini_Generated_Image_1ihfwu1ihfwu1ihf.png');
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+    color: #ecf0f1; /* Cor do texto clara */
+}
+
+/* Fonte */
+/* Aplica a fonte elegante nos Títulos e na Marca */
+h1, h2, h3, h4, h5, h6, .navbar-brand {
+    font-family: 'Playfair Display', serif; /* A fonte igual da imagem */
+    font-weight: 700; /* Negrito para destaque */
+    letter-spacing: 1px; /* Um leve espaçamento fica chique */
+}
+
+    p, a, button, span {
+        font-family: 'Lato', sans-serif; /* Fonte neutra para leitura fácil */
+        font-weight: 400;
+        
+    }
+
+.carrossel {
+    width: 100%;
+    height: 100vh; /* Ocupa 100% da altura da tela */
+    padding: 0; /* Remove padding anterior */
+    margin: 0;  /* Remove margem anterior */
+}
+
+    /* Força o slide a ter a altura total */
+    .carousel-item {
+        height: 99vh;
+        background-color: #000; /* Cor de fundo enquanto carrega */
+    }
+
+    /* Ajuste específico para ficar igual à sua identidade visual */
+    .carousel-caption h5 {
+        font-family: 'Playfair Display', serif;
+        font-size: 3.5rem; /* Bem grande */
+        font-style: italic; /* Opcional: O itálico dessa fonte é lindo */
+    }
+
+
+/*------*/
+
+
+.page-header{
+    /*Deixa sempre fixada no topo*/
+    position: relative; 
+}
+
+.rd-navbar-wrap{
+    /*Efeito de script, de transição*/
+    transition: 0.35s all cubic-bezier(0.65, 0.05, 0.36, 1);
+}
+
+.icone{
+    width: 100%;
+    max-width: 25px;
+}
+
+
+/* Responsividade */
+
+/* 4. Ajuste para Celular */
+@media (max-width: 768px) {
+    .carousel-item img {
+        height: 350px;
+    }
+    .carrossel {
+        margin-top: 20px;
+        width: 95%; /* Ocupa quase toda a largura no celular */
+    }
+}
