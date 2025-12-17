@@ -27,16 +27,27 @@
             <div class="rd-navbar-wrap">
                 <nav class="rd-navbar rd-navbar-transparent" style="background:#CD9F60;">
                     <div class="rd-navbar-aside-outer rd-navbar-collapse">
-                        <div class="rd-navbar-aside">
+                        <div class="rd-navbar-aside" style="margin-left: 100px; ">
                             <div class="rd-navbar-info">
-                                <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone">
-                                <a href="#" style="text-decoration: none;">(81) 9 9999-9999</a>
+                                <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"><!-- Ajustar a distnacia no futuro-->
+                                <a href="#" style="text-decoration: none; color: #1a1a1a;"><b>(81) 9 9999-9999</b></a>
+                                <a href="#" style="text-decoration: none; color: #1a1a1a; margin-left: 1500px;"><b>Log In</b></a>
                             </div>
                         </div>
                     </div>
                 </nav>
             </div>
         </header>
+
+        <nav class="transparente">
+             <ul id="sem_marcacao">
+                <li>Home</li>
+                <li>Sobre</li>
+                <li>Expertise</li>
+                <li>Clientes</li>
+                <li>Contato</li>
+            </ul> 
+        </nav>
 
         <main class="carrossel"> <!-- carrossel-->
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -46,6 +57,7 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
                 <div class="carousel-inner">
+                    teste
                     <div class="carousel-item active">
                         <img src="/img/diversas/pexels-sora-shimazaki-5668473.jpg" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-none d-md-block">

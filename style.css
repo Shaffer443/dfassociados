@@ -48,7 +48,35 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
         font-size: 3.5rem; /* Bem grande */
         font-style: italic; /* Opcional: O itálico dessa fonte é lindo */
     }
+/*------*/
 
+.transparente{
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+
+    color: white;
+    
+    background: rgba(12, 16, 33, 0.15);
+}
+
+    #sem_marcacao{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        margin-top: 10px;
+        padding-left: 5px;
+
+        text-decoration: none;
+        list-style-type:none;
+        
+    }
+
+        #sem_marcacao li{
+            margin-left: 15px;
+        }
 
 /*------*/
 
