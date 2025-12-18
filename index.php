@@ -91,6 +91,134 @@
             </div>
         </main>
 
+        <!-- FOOTER -->
+         <footer>
+            <div class="container">
+                <div class="footer-top">
+                    <div class="row">
+                        <!-- <div class="col-md-6 col-lg-3 about-footer">
+                            <h3>Informações </h3>
+                            <ul>
+                                <li><a href="tel:(010) 1234 4321"><i class="fas fa-phone fa-flip-horizontal"></i>(81) 9 99999999</a></li>
+                                <li><i class="fas fa-map-marker-alt"></i>
+                                    Rua Antônio Porfírio - 8A,
+                                    <br/>Caueiras - Aliança, Pernambuco.
+                                    <br/>Brazil 55890000
+                                </li>
+                            </ul>
+                            <a href="" class="btn red-btn">Book Now</a>
+                        </div> -->
+
+                        <div class="col-md-6 col-lg-3 page-more-info">
+                            <div class="footer-title">
+                                <h4>Informações</h4>
+                            </div>
+                            <ul>
+                                <li>
+                                    <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
+                                    <a href="#" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9999-9999</b></a>
+                                </li>
+                                <li>
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    Rua Antônio Porfírio - 8A,
+                                    <br/>Caueiras - Aliança, Pernambuco.
+                                    <br/>Brasil 55890-000
+                                </li>
+                                <li>
+                                    Seu direito garantido! 🔒
+                                    <br/>Direito Previdenciário, Trabalhista e Criminal. ⚖
+                                    <br/><br/>Fale com a gente através do link!
+                                </li>
+                                <!-- <li><a href="#">Ed do eiusmod tempor incididunt</a></li> -->
+                            </ul>
+                        </div>
+
+                        <div class="col-md-6 col-lg-2 page-more-info">
+                            <div class="footer-title">
+                                <h4>Links Úteis</h4>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">OAB</a></li>
+                                <li><a href="#">Web Para Processos</a></li>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Contato</a></li>
+                            </ul>
+                        </div>
+
+                        
+
+                        <div class="col-md-6 col-lg-4 open-hours">
+                            <div class="footer-title">
+                                <h4>Open hours</h4>
+                                <ul class="footer-social">
+                                    <li><a href="" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                                    <li><a href="" target="_blank"><i class="fab fa-linkedin-in"></i></a></li>
+
+                                </ul>
+                            </div>
+                            <table class="table">
+                                <tbody>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Segunda</td>
+                                        <td>9:00am - 5:00pm</td>
+                                    </tr>
+                                     <tr>
+                                        <td><i class="far fa-clock"></i>Terça</td>
+                                        <td>9:00am - 5:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Quarta</td>
+                                        <td>9:00am - 4:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Quinta</td>
+                                        <td>9:00am - 1:30pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Sexta</td>
+                                        <td>9:30am - 12:00pm</td>
+                                    </tr>
+                                    <tr>
+                                        <td><i class="far fa-clock"></i>Sábado</td>
+                                        <td>9:30am - 12:00pm</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <hr>
+                            <div class="footer-logo">
+
+                            <table>
+                                <tbody>
+                                    <tr>
+                                        <td><img src="/img/logos/dfassociados_327x763_recordada.png"></td>
+                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
+                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
+                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
+                                        <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
+                                </tbody>
+                            </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="footer-bottom">
+                    <div class="row">
+                        <!-- <div class="col-sm-4">
+                            <a href="" style="font-size: 10px;">Criado por: Rafael Gouveia(Shaffer)</a>
+                        </div> -->
+                        <div class="col-sm-8">
+                            <p>DF Associados @ 2025 All rights reserved</p>
+                            <a href="" style="font-size: 10px;">Criado por: Rafael Gouveia(Shaffer)</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--  -->
         <!-- Área de teste de conexão embarcada -->
         <!-- <div class="container mt-5">
             <h1>Olá, Bootstrap Local!</h1>
