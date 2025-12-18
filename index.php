@@ -25,6 +25,11 @@
     </head>
     <body>
 
+        <article>
+            <img src="/img/dfassociados/faixa_df_2.png" alt="faixa_df">
+        </article>
+        
+
         <header class="section_header page-header">
             <div class="rd-navbar-wrap">
                 <nav class="rd-navbar rd-navbar-transparent" style="background:#CD9F60;">
@@ -58,24 +63,26 @@
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
+
                 <div class="carousel-inner">
-                    teste
                     <div class="carousel-item active">
-                        <img src="/img/diversas/pexels-sora-shimazaki-5668473.jpg" class="d-block w-100" alt="...">
+                        <img src="/img/dfassociados/wallpaper.png" class="d-block w-100" alt="logo_df">
+                        <!-- <div class="carousel-caption d-none d-md-block">
+                            <h5>Precisa de Orientação Jurídica?</h5>
+                            <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
+                        </div> -->
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="/img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Precisa de Orientação Jurídica?</h5>
                             <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
                         </div>
                     </div>
+                    
                     <div class="carousel-item">
-                        <img src="/img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="/img/diversas/pexels-ekaterina-bolovtsova-6077297.jpg" class="d-block w-100" alt="...">
+                        <img src="/img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
                         <div class="carousel-caption d-none d-md-block">
                             <h5>Third slide label</h5>
                             <p>Some representative placeholder content for the third slide.</p>

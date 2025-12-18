@@ -3,17 +3,31 @@ body {
     padding: 0;
     
     /* Gradiente escuro semi-transparente (0.8) EM CIMA da imagem */
-    background-image: 
+    /* background-image: 
         linear-gradient(rgba(12, 16, 33, 0.65), rgba(12, 16, 33, 0.65)),
-        url('/img/background/Gemini_Generated_Image_1ihfwu1ihfwu1ihf.png');
-
-    background-size: cover;
+        url('/img/background/Gemini_Generated_Image_1ihfwu1ihfwu1ihf.png'); */
+    /* background-size: cover;
     background-position: center;
     background-attachment: fixed;
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; */
     
-    color: #ecf0f1; /* Cor do texto clara */
+    /* color: #ecf0f1; Cor do texto clara */
+
+    background: radial-gradient(circle at top center, #060A1E 50%, #02030A 100%);
+    background-attachment: fixed; /* Mantém o fundo fixo ao rolar a página */
+    min-height: 100vh;
+    /* margin: 0; */
 }
+
+article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+    article img{
+        width: 50%;
+    }
 
 /* Fonte */
 /* Aplica a fonte elegante nos Títulos e na Marca */
@@ -34,7 +48,8 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     height: 100vh; /* Ocupa 100% da altura da tela */
     padding: 0; /* Remove padding anterior */
     margin: 0;  /* Remove margem anterior */
-}
+}    
+
 
     /* Força o slide a ter a altura total */
     .carousel-item {
@@ -56,8 +71,9 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     z-index: 1;
 
     color: white;
+    font-size: 18px;
     
-    background: rgba(12, 16, 33, 0.15);
+    background: rgba(50, 50, 1, 0.36);
 }
 
     #sem_marcacao{
