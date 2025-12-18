@@ -197,13 +197,16 @@ footer {
     }
 
     footer a {
+
         color: #fff;
         text-decoration: none;
+
     }
 
         footer a:hover {
             color: #CD9F60;
         }
+
     .footer-title {
         border-bottom: 2px solid #EDD690;
         padding-bottom: 25px;
@@ -240,7 +243,7 @@ footer {
     }
 
     ul.footer-social i:hover {
-        background: #ed1b24;
+        background: #CD9F60;
         color: #fff;
     }
 
@@ -261,8 +264,8 @@ footer {
         color: #CD9F60;
     }
 
-    footer .table tr {
-    }
+    /* footer .table tr {
+    } */
 
     footer .table td i {
         position: absolute;
@@ -282,19 +285,32 @@ footer {
     .footer-logo td:last-child {
         padding-right: 0px !important;
     }
+
     footer hr {
         border-color: #9294a0;
     }
 
-    .footer-bottom p {
-        text-align: right;
-    }
     .footer-bottom {
         margin-top: 30px;
+        /* border: 1px solid #ecf0f1; */
     }
+
+        .footer-bottom p{
+            /*text-align: right;*/
+            text-align: center;
+            /* border: 1px solid #ecf0f1; */
+        }
+
     .open-hours hr {
         margin: 30px 0;
     }
+
+    #alinhando_no_centro{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
 
 
 
