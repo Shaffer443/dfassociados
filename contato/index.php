@@ -49,75 +49,39 @@
         <nav class="transparente">
              <ul id="sem_marcacao">
                 <li><a href="/index.php">Home</a></li>
-                <li style="color: #CD9F60;">Quem Somos?</li>
+                <li><a href="/sobre/index.php">Quem Somos?</a></li>
                 <li><a href="#">Expertise</a></li>
                 <li><a href="#">Clientes</a></li>
-                <li><a href="/contato/index.php">Contato</a></li>
+                <li style="color: #CD9F60;"><a href="#">Contato</a></li>
             </ul> 
         </nav>
 
-        <aside>
-            <img src="/img/dfassociados/deyse na frente.png" alt="osTres_deyse_na_frente" sizes="" srcset="">
-           
-        </aside>
+        <section>
+            <article class="tag_no_meio">
+                <h1>Contato</h1>
+            </article>
+        </section>
 
+        <article class="tag_no_meio">
+            <hr style="width:50%;text-align:left;color: #CD9F60; margin:0px;">
+        </article>
+        <!-- Parte de contato -->
         <main>
-            <div class="texto">
-                <h1>Quem Somos?</h1>
-                
-                <p>
-                    Somos um escritório de advocacia formado por três sócios comprometidos em transformar a vida de nossos clientes através de soluções jurídicas eficazes e humanizadas. Nossa equipe é composta por profissionais experientes que unem técnica apurada e dedicação genuína em cada caso que assumimos.
-                </p>
-
-                <div class="destaque">
-                    <p style="margin-bottom: 0; font-weight: 500;">
-                        Aqui, você não é mais um número. Tratamos cada situação com a seriedade que ela merece, porque entendemos que por trás de cada processo existe uma história, uma família, um sonho ou uma injustiça que precisa ser reparada.
-                    </p>
-                </div>
-
-                <h2>Nossa Expertise</h2>
-                
-                <p>
-                    Especializamos nosso trabalho em duas áreas fundamentais do Direito: <strong>INSS e Criminal</strong>. Essa escolha não é por acaso. São áreas que exigem conhecimento profundo, experiência prática e, principalmente, sensibilidade para lidar com momentos decisivos na vida das pessoas.
-                </p>
-
-                <div class="areas-atuacao">
-                    <div class="area-card">
-                        <h3>Direito Previdenciário</h3>
-                        <p>Lutamos pelos seus direitos junto ao INSS com estratégia e resultado comprovado.</p>
-                    </div>
-                    <div class="area-card">
-                        <h3>Direito Criminal</h3>
-                        <p>Defesa técnica qualificada em todos os momentos do processo criminal.</p>
-                    </div>
-                </div>
-
-                <p>
-                    No <strong>Direito Previdenciário</strong>, sabemos que muitas vezes você está em um momento de fragilidade, precisando do benefício que é seu por direito. Conhecemos cada detalhe da legislação do INSS, cada mudança nas regras, cada estratégia para garantir que você receba o que merece. Aposentadorias, auxílios, pensões e revisões são nosso dia a dia.
-                </p>
-
-                <p>
-                    No <strong>Direito Criminal</strong>, atuamos com a consciência de que está em jogo muito mais do que processos: está em jogo a liberdade, a dignidade e o futuro de pessoas e famílias. Nossa defesa é técnica, estratégica e incansável, seja para quem precisa de proteção, seja para quem busca justiça.
-                </p>
-
-                <h2>Por Que Nos Escolher?</h2>
-
-                <p>
-                    Porque trabalhamos com paixão pelo que fazemos. Porque estudamos cada detalhe do seu caso. Porque não desistimos fácil. E principalmente porque acreditamos que advocacia de qualidade não é privilégio de poucos — é direito de todos que nos procuram.
-                </p>
-
-                <p>
-                    Nossa força vem da união: três sócios que se complementam, compartilham conhecimento e têm um objetivo comum: fazer a diferença na vida de quem confia em nosso trabalho.
-                </p>
-
-                <div class="destaque">
-                    <p style="margin-bottom: 0; font-weight: 500; text-align: center;">
-                        Se você está buscando advogados que realmente vistam a camisa do seu caso, que falem com clareza e que lutem com seriedade, você está no lugar certo.
-                    </p>
-                </div>
-            </div>
-
             
+            <section>
+                <div class="mb-3">
+                    <label for="exampleFormControlInput1" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu email">
+                    </div>
+                    <div class="mb-3">
+                    <label for="exampleFormControlTextarea1" class="form-label">Escreva sua Mensagem</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-primary me-md-2" type="button" style="background: #1F2646">Enviar</button>
+                </div>
+            </section>
+                     
         </main>
 
         <!-- ####################### FOOTER ############################# -->
