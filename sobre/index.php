@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-        <title>DF Associados</title>
+        <title>DF - Quem Somos?</title>
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -21,7 +21,7 @@
         <!-- CSS -->
          <link rel="stylesheet" href="style.css">
         <!-- Bootstrao Embarcado-->
-        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="../bootstrap-5.0.2-dist/css/bootstrap.min.css">
     </head>
     <body>
 
@@ -48,56 +48,76 @@
 
         <nav class="transparente">
              <ul id="sem_marcacao">
-                <li>Home</li>
-                <li><a href="/sobre/index.php">Quem Somos?</a></li>
-                <li>Expertise</li>
-                <li>Clientes</li>
-                <li>Contato</li>
+                <li><a href="/index.php">Home</a></li>
+                <li style="color: #CD9F60;">Quem Somos?</li>
+                <li><a href="#">Expertise</a></li>
+                <li><a href="#">Clientes</a></li>
+                <li><a href="#">Contato</a></li>
             </ul> 
         </nav>
 
-        <main class="carrossel"> <!-- carrossel-->
-            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <aside>
+            <img src="/img/dfassociados/deyse na frente.png" alt="osTres_deyse_na_frente" sizes="" srcset="">
+           
+        </aside>
+
+        <main>
+            <div class="texto">
+                <h1>Quem Somos?</h1>
+                
+                <p>
+                    Somos um escritório de advocacia formado por três sócios comprometidos em transformar a vida de nossos clientes através de soluções jurídicas eficazes e humanizadas. Nossa equipe é composta por profissionais experientes que unem técnica apurada e dedicação genuína em cada caso que assumimos.
+                </p>
+
+                <div class="destaque">
+                    <p style="margin-bottom: 0; font-weight: 500;">
+                        Aqui, você não é mais um número. Tratamos cada situação com a seriedade que ela merece, porque entendemos que por trás de cada processo existe uma história, uma família, um sonho ou uma injustiça que precisa ser reparada.
+                    </p>
                 </div>
 
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="/img/dfassociados/wallpaper.png" class="d-block w-100" alt="logo_df">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Precisa de Orientação Jurídica?</h5>
-                            <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
-                        </div> -->
+                <h2>Nossa Expertise</h2>
+                
+                <p>
+                    Especializamos nosso trabalho em duas áreas fundamentais do Direito: <strong>INSS e Criminal</strong>. Essa escolha não é por acaso. São áreas que exigem conhecimento profundo, experiência prática e, principalmente, sensibilidade para lidar com momentos decisivos na vida das pessoas.
+                </p>
+
+                <div class="areas-atuacao">
+                    <div class="area-card">
+                        <h3>Direito Previdenciário</h3>
+                        <p>Lutamos pelos seus direitos junto ao INSS com estratégia e resultado comprovado.</p>
                     </div>
-                    
-                    <div class="carousel-item">
-                        <img src="/img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Precisa de Orientação Jurídica?</h5>
-                            <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
-                        </div>
-                    </div>
-                    
-                    <div class="carousel-item">
-                        <img src="/img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
+                    <div class="area-card">
+                        <h3>Direito Criminal</h3>
+                        <p>Defesa técnica qualificada em todos os momentos do processo criminal.</p>
                     </div>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+
+                <p>
+                    No <strong>Direito Previdenciário</strong>, sabemos que muitas vezes você está em um momento de fragilidade, precisando do benefício que é seu por direito. Conhecemos cada detalhe da legislação do INSS, cada mudança nas regras, cada estratégia para garantir que você receba o que merece. Aposentadorias, auxílios, pensões e revisões são nosso dia a dia.
+                </p>
+
+                <p>
+                    No <strong>Direito Criminal</strong>, atuamos com a consciência de que está em jogo muito mais do que processos: está em jogo a liberdade, a dignidade e o futuro de pessoas e famílias. Nossa defesa é técnica, estratégica e incansável, seja para quem precisa de proteção, seja para quem busca justiça.
+                </p>
+
+                <h2>Por Que Nos Escolher?</h2>
+
+                <p>
+                    Porque trabalhamos com paixão pelo que fazemos. Porque estudamos cada detalhe do seu caso. Porque não desistimos fácil. E principalmente porque acreditamos que advocacia de qualidade não é privilégio de poucos — é direito de todos que nos procuram.
+                </p>
+
+                <p>
+                    Nossa força vem da união: três sócios que se complementam, compartilham conhecimento e têm um objetivo comum: fazer a diferença na vida de quem confia em nosso trabalho.
+                </p>
+
+                <div class="destaque">
+                    <p style="margin-bottom: 0; font-weight: 500; text-align: center;">
+                        Se você está buscando advogados que realmente vistam a camisa do seu caso, que falem com clareza e que lutem com seriedade, você está no lugar certo.
+                    </p>
+                </div>
             </div>
+
+            
         </main>
 
         <!-- ####################### FOOTER ############################# -->

@@ -43,26 +43,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
         
     }
 
-.carrossel {
-    width: 100%;
-    height: 100vh; /* Ocupa 100% da altura da tela */
-    padding: 0; /* Remove padding anterior */
-    margin: 0;  /* Remove margem anterior */
-}    
 
-
-    /* Força o slide a ter a altura total */
-    .carousel-item {
-        height: 99vh;
-        background-color: #000; /* Cor de fundo enquanto carrega */
-    }
-
-    /* Ajuste específico para ficar igual à sua identidade visual */
-    .carousel-caption h5 {
-        font-family: 'Playfair Display', serif;
-        font-size: 3.5rem; /* Bem grande */
-        font-style: italic; /* Opcional: O itálico dessa fonte é lindo */
-    }
 /*------*/
 
 .transparente{
@@ -94,7 +75,7 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
             margin-left: 15px;
         }
 
-            #sem_marcacao li a{
+             #sem_marcacao li a{
                 text-decoration: none;
                 color: white;
             }
@@ -102,7 +83,6 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
                 #sem_marcacao li a:hover{
                     color: #CD9F60;
                 }
-
 
 /*------*/
 
@@ -121,6 +101,133 @@ h1, h2, h3, h4, h5, h6, .navbar-brand {
     width: 100%;
     max-width: 25px;
 }
+
+
+/* imagem dos três, ideia em colocar fixo, ao ponto que vai baixando o site, nesta aba */
+
+aside{
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* Garante que ele não estique para preencher o pai */
+    align-self: flex-start;
+
+    /* --- A MÁGICA ACONTECE AQUI --- */
+    position: sticky; 
+    top: 20px; /* Distância que ele vai parar do topo da tela ao rolar */
+
+    margin-top: 80px;
+    margin-left: 100px;
+
+    /* Adicione uma margem inferior para dar um "espaço de segurança" */
+    /* margin-bottom: 350px; */
+    
+    width: 330px;
+    height: 380px;
+    
+    box-shadow: 20px 20px 50px rgba(0,0,0,0.5);
+    border-radius: 15px;
+    background: rgba(205, 159, 96, 0.15);
+    overflow: hidden;
+   
+    border-top: 1px solid rgba(205, 159, 96, 0.6); /*Claridade nas bordas*/
+    border-left: 1px solid rgba(205, 159, 96, 0.6);   /*Claridade nas bordas*/
+
+    /*usar esta aprte abaixo apenas se tiver imagemd e fundo no projeto*/
+    backdrop-filter: blur(5px); /*desfoque do card, deixando mais fosco e em destque*/                   
+
+        
+}
+
+    aside img{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        width: 315px;
+        height: 365px;
+
+        border-radius: 15px;
+
+    }
+
+
+/* Parte de texto*/
+
+main{
+    position: relative;
+
+    margin-top: -440px;
+    color: white;
+}
+
+ .texto {
+    max-width: 900px;
+    margin: 0 auto;
+    /* background: white; */
+    padding: 50px;
+    border-radius: 12px;
+    box-shadow: 0 10px 40px rgba(0,0,0,0.1);
+    }
+
+        .texto h1 {
+            color: #EDD690;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            text-align: start;
+            font-weight: 700;
+        }
+
+         .texto h2 {
+            color: #EDD690;
+            font-size: 1.8em;
+            margin: 40px 0 20px 0;
+            font-weight: 600;
+            border-left: 4px solid #1a5490;
+            padding-left: 15px;
+        }
+
+         .texto p {
+            margin-bottom: 20px;
+            font-size: 1.1em;
+            text-align: justify;
+        }
+
+        .destaque {
+            background: #CD9F60;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 4px solid #1a5490;
+        }
+
+        .areas-atuacao {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .area-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 10px;
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+            .area-card:hover {
+                transform: translateY(-5px);
+            }
+
+                .area-card h3 {
+                    font-size: 1.4em;
+                    margin-bottom: 10px;
+                }
 
 /* ------------------------ FOOTER ----------------------------------*/
 
@@ -162,28 +269,9 @@ h1,h2,h3,h4,h5,h6 {}
 
 section {
     padding: 60px 0;
-    /* min-height: 100vh;*/
+    /* min-height: 100vh; */
 }
-/*
-.btn {
-    padding: 14px 25px;
-    text-transform: uppercase;
-    -webkit-transition: all 0.8s;
-    -moz-transition: all 0.8s;
-    -o-transition: all 0.8s;
-    transition: all 0.8s;
-}
-    .red-btn {
-        background: #ed1b24;
-        border: 2px solid #ed1b24;
-        color: #fff;
-    }
 
-    .red-btn:hover{
-        background: #1c376c;
-        color: #fff;
-        border-color: #ffffff;
-    }*/
 
 /*---------footer---------*/
 footer {
@@ -195,6 +283,10 @@ footer {
     color: #fff;
     padding: 50px 0; /*220*/
     font-size: 17px;
+
+    /*Ideia de esconde a imagem,caso não consiga parar no footer */
+    position: relative;
+    z-index: 10;
 }
     footer h3 {
         font-size: 24px;
