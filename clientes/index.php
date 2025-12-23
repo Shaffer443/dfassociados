@@ -51,38 +51,36 @@
                 <li><a href="/index.php">Home</a></li>
                 <li><a href="/sobre/index.php">Quem Somos?</a></li>
                 <li><a href="#">Expertise</a></li>
-                <li><a href="/clientes/index.php">Clientes</a></li>
-                <li style="color: #CD9F60;"><a href="#">Contato</a></li>
+                <li><a href="#" style="color: #CD9F60;">Clientes</a></li>
+                <li><a href="/contato/index.php">Contato</a></li>
             </ul> 
         </nav>
 
-        <section>
-            <article class="tag_no_meio">
-                <h1>Contato</h1>
-            </article>
-        </section>
+        <!-- Nucleo da Página -->
 
-        <article class="tag_no_meio">
-            <hr style="width:50%;text-align:left;color: #CD9F60; margin:0px;">
-        </article>
-        <!-- Parte de contato -->
         <main>
-            
-            <section>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu email">
+            <section class="card_depoimento">
+                <div class="card mb-3" style="max-width: 600px;" id="interior_card_depoimento">
+                    <div class="row g-0" style="padding: 10px;">
+                        <div class="col-md-3" id="imagem_clientes">
+                            <img src="/img/images_emfalta.jpg" class="img-fluid rounded-start" alt="...">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Cliente 01</h5>
+                                <p class="card-text" style="text-align: justify;">"Gostaria de expressar minha total satisfação com o atendimento jurídico prestado na minha 
+                                    causa contra o INSS. Desde o início, a equipe foi extremamente atenciosa, transparente e competente. 
+                                    Graças ao profissionalismo e dedicação, consegui obter o benefício que me era de direito, após uma longa espera. 
+                                    Recomendo fortemente os serviços!"</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
                     </div>
-                    <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escreva sua Mensagem</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button" style="background: #1F2646">Enviar</button>
                 </div>
             </section>
-                     
         </main>
+
+        
 
         <!-- ####################### FOOTER ############################# -->
          <footer >

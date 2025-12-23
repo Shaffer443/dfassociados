@@ -48,11 +48,11 @@
 
         <nav class="transparente">
              <ul id="sem_marcacao">
-                <li>Home</li>
+                <li style="color: #CD9F60;">Home</li>
                 <li><a href="/sobre/index.php">Quem Somos?</a></li>
                 <li>Expertise</li>
-                <li>Clientes</li>
-                <li>Contato</li>
+                <li><a href="/clientes/index.php">Clientes</a></li>
+                <li><a href="/contato/index.php">Contato</a></li>
             </ul> 
         </nav>
 
