@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
 
-        <title>DF - Quem Somos?</title>
+        <title>DF - Contato</title>
 
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -52,7 +52,7 @@
                 <li><a href="/sobre/index.php">Quem Somos?</a></li>
                 <li><a href="#">Expertise</a></li>
                 <li><a href="/clientes/index.php">Clientes</a></li>
-                <li style="color: #CD9F60;"><a href="#">Contato</a></li>
+                <li><a href="#" style="color: #CD9F60;">Contato</a></li>
             </ul> 
         </nav>
 
@@ -69,18 +69,29 @@
         <main>
             
             <section>
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu email">
-                    </div>
+                <form action="envio.php" method="post">
+                    <!-- Nome -->
                     <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Escreva sua Mensagem</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                </div>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
-                    <button class="btn btn-primary me-md-2" type="button" style="background: #1F2646">Enviar</button>
-                </div>
+                        <label for="exampleFormControlInput1" class="form-label">Nome</label>
+                        <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome e Sobrenome">
+                    </div>
+                    <!-- Email -->
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" name="email" class="form-control" id="exampleFormControlInput1" placeholder="Seu email">
+                    </div>
+                    <!-- Mensagem -->
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Escreva sua Mensagem</label>
+                        <textarea class="form-control" name="msg" id="exampleFormControlTextarea1" rows="3" placeholder="Deixe Sua Mensagem..."></textarea>
+                    </div>
+                    <!-- Botão -->
+                    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                        <button class="btn btn-primary me-md-2" type="submit" name="enviar" style="background: #1F2646">Enviar</button>
+                    </div>
+                </form>
             </section>
+            
                      
         </main>
 

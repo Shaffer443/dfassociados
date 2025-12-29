@@ -59,8 +59,9 @@
         <!-- Nucleo da Página -->
 
         <main>
+            <!-- Imagem para o lado esquero -->
             <section class="card_depoimento">
-                <div class="card mb-3" style="max-width: 600px;" id="interior_card_depoimento">
+                <div class="card mb-3" style="max-width: 900px;" id="interior_card_depoimento">
                     <div class="row g-0" style="padding: 10px;">
                         <div class="col-md-3" id="imagem_clientes">
                             <img src="/img/images_emfalta.jpg" class="img-fluid rounded-start" alt="...">
@@ -74,6 +75,27 @@
                                     Recomendo fortemente os serviços!"</p>
                                 <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
                             </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Imagem para o lado direito. com margim definida no html -->
+            <section class="card_depoimento" style="margin-top: -90px;">
+                <div class="card mb-3" style="max-width: 900px;" id="interior_card_depoimento">
+                    <div class="row g-0" style="padding: 10px;">
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h5 class="card-title">Cliente 02</h5>
+                                <p class="card-text" style="text-align: justify;">"Gostaria de expressar minha total satisfação com o atendimento jurídico prestado na minha 
+                                    causa contra o INSS. Desde o início, a equipe foi extremamente atenciosa, transparente e competente. 
+                                    Graças ao profissionalismo e dedicação, consegui obter o benefício que me era de direito, após uma longa espera. 
+                                    Recomendo fortemente os serviços!"</p>
+                                <!-- <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p> -->
+                            </div>
+                        </div>
+                         <div class="col-md-3" id="imagem_clientes">
+                            <img src="/img/images_emfalta.jpg" class="img-fluid rounded-start" alt="...">
                         </div>
                     </div>
                 </div>
