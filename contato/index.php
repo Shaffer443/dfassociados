@@ -16,8 +16,8 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- fivicon -->
-        <link rel="shortcut icon" href="/img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
-        <link rel="icon" href="/img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
+        <link rel="shortcut icon" href="../img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
+        <link rel="icon" href="../img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
         <!-- CSS -->
          <link rel="stylesheet" href="style.css">
         <!-- Bootstrao Embarcado-->
@@ -26,7 +26,7 @@
     <body>
 
         <article>
-            <img src="/img/dfassociados/faixa_df_2.png" alt="faixa_df">
+            <img src="../img/dfassociados/faixa_df_2.png" alt="faixa_df">
         </article>
         
 
@@ -35,10 +35,13 @@
                 <nav class="rd-navbar rd-navbar-transparent" style="background:#CD9F60;">
                     <div class="rd-navbar-aside-outer rd-navbar-collapse">
                         <div class="rd-navbar-aside" style="margin-left: 100px; ">
-                            <div class="rd-navbar-info">
-                                <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"><!-- Ajustar a distnacia no futuro-->
-                                <a href="#" style="text-decoration: none; color: #1a1a1a;"><b>(81) 9 9999-9999</b></a>
-                                <a href="#" style="text-decoration: none; color: #1a1a1a; margin-left: 1500px;"><b>Log In</b></a>
+                            <div class="rd-navbar-info d-flex justify-content-around">
+                                <!-- <img src="img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
+                                <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F
+" style="text-decoration: none; color: #1a1a1a; width: 250px;">
+                                    <img src="../img/logos/whatsapp-brands-solid-full.svg" class="icone">
+                                    <b>(81) 9 9289-7888</b></a>
+                                <a href="#" style="text-decoration: none; color: #1a1a1a; "><b>Log In</b></a>
                             </div>
                         </div>
                     </div>
@@ -48,10 +51,10 @@
 
         <nav class="transparente">
              <ul id="sem_marcacao">
-                <li><a href="/index.php">Home</a></li>
-                <li><a href="/sobre/index.php">Quem Somos?</a></li>
-                <li><a href="#">Expertise</a></li>
-                <li><a href="/clientes/index.php">Clientes</a></li>
+                <li><a href="../index.php">Home</a></li>
+                <li><a href="../sobre/index.php">Quem Somos?</a></li>
+                <!-- <li><a href="#">Expertise</a></li> -->
+                <li><a href="../clientes/index.php">Clientes</a></li>
                 <li><a href="#" style="color: #CD9F60;">Contato</a></li>
             </ul> 
         </nav>
@@ -73,7 +76,7 @@
                     <!-- Nome -->
                     <div class="mb-3">
                         <label for="exampleFormControlInput1" class="form-label">Nome</label>
-                        <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Seu Nome e Sobrenome">
+                        <input type="text" name="nome" class="form-control" id="exampleFormControlInput1" placeholder="Nome e Sobrenome">
                     </div>
                     <!-- Email -->
                     <div class="mb-3">
@@ -120,7 +123,7 @@
                             <ul>
                                 <li>
                                     <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
-                                    <a href="#" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9999-9999</b></a>
+                                    <a href="#" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
@@ -131,7 +134,7 @@
                                 <li>
                                     Seu direito garantido! 🔒
                                     <br/>Direito Previdenciário, Trabalhista e Criminal. ⚖
-                                    <br/><br/>Fale com a gente através do link!
+                                    <!-- <br/><br/>Fale com a gente através do link! -->
                                 </li>
                                 <!-- <li><a href="#">Ed do eiusmod tempor incididunt</a></li> -->
                             </ul>
@@ -183,8 +186,8 @@
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td><img src="/img/logos/dfassociados_327x763_recordada.png"></td>
-                                            <td><img src="/img/diversas/oab-nc.png"></td>
+                                            <td><img src="../img/logos/dfassociados_327x763_recordada.png"></td>
+                                            <td><img src="../img/diversas/oab-nc.png"></td>
                                             <!-- <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
                                             <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
                                             <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td> -->
@@ -211,7 +214,7 @@
                 <!-- </div> -->
                 <hr>
                 <div class="footer-bottom ">
-                    <p>DF Associados @ 2025 All rights reserved</p>
+                    <p>DF Associados @ 2026 All rights reserved</p>
                     <!-- <a href="https://linktr.ee/rafaelgouveia" style="font-size: 10px;" target="_blank" rel="noopener noreferrer">Criado por: Rafael Gouveia(Shaffer)</a> -->
                     <div  id="alinhando_no_centro">
                         <!-- <div class="col-sm-4">
@@ -241,7 +244,7 @@
             <button class="btn btn-primary">Botão de Teste</button>
         </div> -->
 
-        <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="../bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
         
     </body>
 </html>
