@@ -132,7 +132,9 @@
                             <ul>
                                 <li>
                                     <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
-                                    <a href="#" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
+                                    <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F" target="_blank" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
+                                    <a href="../contato/index.php" style="text-decoration: none; color: #CD9F60;"><b>dfadvogados2@gmail.com</b></a>  
+                                    <img src="../img/qrcode/DF Associados_background_colorido_semnome.png" style="max-width: 250px; margin-top: 10px;">
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>

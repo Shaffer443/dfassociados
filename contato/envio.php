@@ -23,10 +23,10 @@ if (isset($_POST['enviar'])){
         //Server settings
         $mail->SMTPDebug = SMTP::DEBUG_SERVER;                      //Enable verbose debug output
         $mail->isSMTP();                                            //Send using SMTP
-        $mail->Host       = 'smtp.gmail.com';                     //Set the SMTP server to send through
+        $mail->Host       = 'smtp.gmail.com';                       //Set the SMTP server to send through
         $mail->SMTPAuth   = true;                                   //Enable SMTP authentication
-        $mail->Username   = 'rafaelgouveiamelo@gmail.com';                     //SMTP username
-        $mail->Password   = 'atli xyjn dydo ljmv';                               //SMTP password(senhas de app)
+        $mail->Username   = 'dfadvogados2@gmail.com';               //SMTP username
+        $mail->Password   = 'atli xyjn dydo ljmv';                  //SMTP password(senhas de app)
         //Usando SMTPS
         //$mail->SMTPSecure = PHPMailer::ENCRYPTION_SMTPS;            //Enable implicit TLS encryption
         //$mail->Port       = 465;                                    //TCP port to connect to; use 587 if you have set `SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS`
@@ -36,8 +36,8 @@ if (isset($_POST['enviar'])){
         $mail->Port       = 587;
 
         //Recipients
-        $mail->setFrom('rafaelgouveiamelo@gmail.com', 'Mailer');          //Qual email estou enviando
-        $mail->addAddress('rafaelgouveiamelo@gmail.com', 'RG SHaffer443');     //Add a recipient, qual email vai receber, para qual vai ser enviado 
+        $mail->setFrom('dfadvogados2@gmail.com', 'Mailer');          //Qual email estou enviando
+        $mail->addAddress('rafaelgouveiamelo@gmail.com', 'RG Shaffer443');     //Add a recipient, qual email vai receber, para qual vai ser enviado 
         $mail->addAddress('shaffer443@gmail.com');               //Name is optional, mais de um endereço de email para receber a msg.
         $mail->addReplyTo('rafaelgouveiamelo@gmail.com', 'Information');
         //$mail->addCC('cc@example.com');
@@ -53,7 +53,7 @@ if (isset($_POST['enviar'])){
         $mail->Subject = 'Mensagem via site - DF Associados';               // Assunto
 
         // Pegando as informações do formulário de contato:
-        $corpo_da_mensagem = "Mensagem enviada através da site. Segue informações abaixo: <br>
+        $corpo_da_mensagem = "Mensagem enviada através do site. <br> Segue informações abaixo: <br>
                                 Nome: {$_POST['nome']} <br> 
                                 Email: {$_POST['email']} <br>
                                 Mensagem:<br>

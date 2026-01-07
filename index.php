@@ -78,7 +78,7 @@
                     <div class="carousel-item">
                         <img src="img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Precisa de Orientação Jurídica?</h5>
+                            <h5 style="color: #CD9F60;">Precisa de Orientação Jurídica?</h5>
                             <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
                         </div>
                     </div>
@@ -86,7 +86,7 @@
                     <div class="carousel-item">
                         <img src="img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
                         <div class="carousel-caption d-none d-md-block">
-                            <h5>Reflita</h5>
+                            <h5 style="color: #CD9F60;">Reflita</h5>
                             <p>"A injustiça em qualquer lugar é uma ameaça à justiça por toda a parte."</p>
                         </div>
                     </div>
@@ -127,7 +127,9 @@
                             <ul>
                                 <li>
                                     <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
-                                    <a href="#" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
+                                    <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F" target="_blank" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
+                                    <a href="./contato/index.php" style="text-decoration: none; color: #CD9F60;"><b>dfadvogados2@gmail.com</b></a>
+                                    <img src="img/qrcode/DF Associados_background_colorido_semnome.png" style="max-width: 250px; margin-top: 10px;">  
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
