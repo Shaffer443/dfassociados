@@ -16,17 +16,17 @@
         <!-- Font Awesome -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
         <!-- fivicon -->
-        <link rel="shortcut icon" href="img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
-        <link rel="icon" href="img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
+        <link rel="shortcut icon" href="/dfassociados/img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
+        <link rel="icon" href="/dfassociados/img/logos/dfassociados_327x763_recordada.png" type="image/x-icon">
         <!-- CSS -->
-         <link rel="stylesheet" href="style.css">
+         <link rel="stylesheet" href="/dfassociados/style.css">
         <!-- Bootstrao Embarcado-->
-        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/dfassociados/bootstrap-5.0.2-dist/css/bootstrap.min.css">
     </head>
     <body>
 
         <article>
-            <img src="img/dfassociados/faixa_df_2.png" alt="faixa_df">
+            <img src="/dfassociados/img/dfassociados/faixa_df_2.png" alt="faixa_df">
         </article>
         
 
@@ -38,7 +38,7 @@
                             <div class="rd-navbar-info d-flex justify-content-around">
                                 <!-- <img src="img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
                                 <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F" target="_blank" style="text-decoration: none; color: #1a1a1a; width: 250px;">
-                                    <img src="img/logos/whatsapp-brands-solid-full.svg" class="icone">
+                                    <img src="/dfassociados/img/logos/whatsapp-brands-solid-full.svg" class="icone">
                                     <b>(81) 9 9289-7888</b></a>
                                 <a href="#" style="text-decoration: none; color: #1a1a1a; "><b>Log In</b></a>
                             </div>
@@ -51,14 +51,15 @@
         <nav class="transparente">
              <ul id="sem_marcacao">
                 <li style="color: #CD9F60;">Home</li>
-                <li><a href="sobre/index.php">Quem Somos?</a></li>
+                <li><a href="/dfassociados/sobre/index.php">Quem Somos?</a></li>
                 <!-- <li>Expertise</li> -->
                 <!-- <li><a href="clientes/index.php">Clientes</a></li> -->
-                <li><a href="contato/index.php">Contato</a></li>
+                <li><a href="/dfassociados/contato/index.php">Contato</a></li>
             </ul> 
         </nav>
 
-        <main class="carrossel"> <!-- carrossel-->
+        <!-- carrossel-->
+        <!-- <main class="carrossel"> 
             <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-indicators">
                     <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -68,15 +69,11 @@
 
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="img/dfassociados/wallpaper.png" class="d-block w-100" alt="logo_df">
-                        <!-- <div class="carousel-caption d-none d-md-block">
-                            <h5>Precisa de Orientação Jurídica?</h5>
-                            <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
-                        </div> -->
+                        <img src="/dfassociados/img/dfassociados/wallpaper.png" class="d-block w-100" alt="logo_df">
                     </div>
                     
                     <div class="carousel-item">
-                        <img src="img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
+                        <img src="/dfassociados/img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 style="color: #CD9F60;">Precisa de Orientação Jurídica?</h5>
                             <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
@@ -84,7 +81,7 @@
                     </div>
                     
                     <div class="carousel-item">
-                        <img src="img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
+                        <img src="/dfassociados/img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
                         <div class="carousel-caption d-none d-md-block">
                             <h5 style="color: #CD9F60;">Reflita</h5>
                             <p>"A injustiça em qualquer lugar é uma ameaça à justiça por toda a parte."</p>
@@ -99,6 +96,56 @@
                     <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
                 </button>
+            </div>
+        </main> -->
+
+        <main class="carrossel d-none d-md-block"> 
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/dfassociados/img/dfassociados/wallpaper.png" class="d-block w-100" alt="logo_df">
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="/dfassociados/img/dfassociados/estamosesperandoporvc_2_mesclagem.png"  class="d-block w-100" alt="Equipe DP Advogados pronta para atendimento">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: #CD9F60;">Precisa de Orientação Jurídica?</h5>
+                            <p>Estamos Prontos para esclarecer suas dúvidas e oferecer o suporte juridico que você precisa.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="carousel-item">
+                        <img src="/dfassociados/img/diversas/pexels-ekaterina-bolovtsova-6077091.jpg" class="d-block w-100" alt="biblioteca_livros">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5 style="color: #CD9F60;">Reflita</h5>
+                            <p>"A injustiça em qualquer lugar é uma ameaça à justiça por toda a parte."</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </main>
+
+        <main class="d-block d-md-none">
+            <div class="container-fluid p-0">
+                <img src="/dfassociados/img/dfassociados/wallpaper.png" class="img-fluid" alt="DF Associados">
+                <div class="text-center p-4" style="background-color: #060A1E;">
+                    <h2 style="color: #CD9F60; font-family: 'Playfair Display', serif; font-size: 2rem;">DF Associados</h2>
+                    <p style="color: #fff; font-size: 1rem; margin-top: 10px;">Assessoria jurídica especializada para garantir seus direitos.</p>
+                </div>
             </div>
         </main>
 
@@ -128,8 +175,8 @@
                                 <li>
                                     <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
                                     <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F" target="_blank" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
-                                    <a href="./contato/index.php" style="text-decoration: none; color: #CD9F60;"><br><b>contato@dfassocaidos.com.br</b></a>
-                                    <img src="img/qrcode/DF Associados_background_colorido_semnome.png" style="max-width: 250px; margin-top: 10px;">  
+                                    <a href="./contato/index.php" style="text-decoration: none; color: #CD9F60;"><br><b>contato@dfassociados.com.br</b></a>
+                                    <img src="/dfassociados/img/qrcode/DF Associados_background_colorido_semnome.png" style="max-width: 250px; margin-top: 10px;">  
                                 </li>
                                 <li>
                                     <i class="fas fa-map-marker-alt"></i>
@@ -192,8 +239,8 @@
                                 <table>
                                     <tbody>
                                         <tr>
-                                            <td><img src="img/logos/dfassociados_327x763_recordada.png"></td>
-                                            <td><img src="img/diversas/oab-nc.png"></td>
+                                            <td><img src="/dfassociados/img/logos/dfassociados_327x763_recordada.png"></td>
+                                            <td><img src="/dfassociados/img/diversas/oab-nc.png"></td>
                                             <!-- <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
                                             <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td>
                                             <td><img src="https://i.ibb.co/vxc577d/dummy-logo3.jpg"></td> -->
@@ -212,7 +259,7 @@
                                 <li><a href="https://www.oab.org.br/" target="_blank" rel="noopener noreferrer">OAB</a></li>
                                 <!-- <li><a href="#">Web Para Processos</a></li> -->
                                 <li><a href="https://www.instagram.com/dfassociados/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                                <li><a href="contato/index.php">Contato</a></li>
+                                <li><a href="/dfassociados/contato/index.php">Contato</a></li>
                             </ul>
                         </div>
 
@@ -250,7 +297,7 @@
             <button class="btn btn-primary">Botão de Teste</button>
         </div> -->
 
-        <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
+        <script src="/dfassociados/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js"></script>
         
     </body>
 </html>

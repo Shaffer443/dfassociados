@@ -443,29 +443,63 @@ footer {
 }
 
 /* 4. Ajuste para Celular */
+/* 4. Ajuste para Celular - Quem Somos */
+/* 4. Ajuste para Celular - TOTALMENTE RESPONSIVO */
 @media (max-width: 768px) {
-    .texto{
-        margin-left: 400px;
-        /* border: 2px solid red ; */
+    
+    /* Ajusta a logo do topo */
+    article img {
+        width: 85% !important;
     }
 
-        .texto h1 {
-            font-size: 2em;
-        }
+    /* Move a imagem dos sócios para o topo e centraliza */
+    aside {
+        position: relative !important;
+        top: 25px !important;
+        margin: 20px auto !important; /* Centraliza horizontalmente */
+        width: 90% !important; /* Ocupa quase a tela toda */
+        height: auto !important;
+        margin-left: auto !important;
+        box-shadow: 10px 10px 30px rgba(0,0,0,0.5) !important;
+    }
 
-        .areas-atuacao{
-            /* display: grid; */
-            grid-template-columns: none;
-            /* gap: 20px;
-            margin: 30px 0; */
-            /* margin: auto; */
-            /* border: 2px solid red ; */
-        }
-    .carousel-item img {
-        height: 350px;
+    aside img {
+        width: 100% !important;
+        height: auto !important;
     }
-    .carrossel {
-        margin-top: 20px;
-        width: 95%; /* Ocupa quase toda a largura no celular */
+
+    /* Remove o "puxão" para cima e a margem lateral do texto */
+    main {
+        margin-top: 0 !important; /* O texto agora começa DEPOIS da imagem */
     }
+
+    .texto {
+        margin-left: 0 !important; /* REMOVE o empurrão de 400px */
+        padding: 20px !important;   /* Dá um respiro nas bordas */
+        width: 100% !important;
+        box-shadow: none !important; /* Remove sombra pesada no mobile */
+    }
+
+    .texto h1 {
+        text-align: center !important;
+        font-size: 1.8em !important;
+    }
+
+    /* Faz os cards de Expertise ficarem um embaixo do outro */
+    .areas-atuacao {
+        grid-template-columns: 1fr !important; 
+        gap: 15px !important;
+    }
+
+    /* Ajuste do rodapé para não esmagar conteúdo */
+    /* footer .row > div {
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    footer .table td {
+        display: block;
+        text-align: center !important;
+        padding: 10px 0;
+    } */
 }

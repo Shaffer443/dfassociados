@@ -345,12 +345,30 @@ footer {
 /* Responsividade */
 
 /* 4. Ajuste para Celular */
-@media (max-width: 768px) {
+/* @media (max-width: 768px) {
     .carousel-item img {
         height: 350px;
     }
     .carrossel {
         margin-top: 20px;
-        width: 95%; /* Ocupa quase toda a largura no celular */
+        width: 95%; Ocupa quase toda a largura no celular
+    }
+}*/
+
+@media (max-width: 768px) {
+    /* Removemos a altura fixa que o carrossel impunha no mobile */
+    .carrossel {
+        height: auto !important;
+    }
+    
+    /* Ajuste da logo do topo no mobile para não ficar gigante */
+    article img {
+        width: 80% !important;
+    }
+
+    /* Ajuste do Menu Transparente no Mobile */
+    .transparente {
+        position: relative; /* No mobile é melhor que ele empurre o conteúdo para baixo */
+        background: rgba(0, 0, 0, 0.8);
     }
 }
