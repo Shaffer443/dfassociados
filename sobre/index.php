@@ -54,7 +54,7 @@
                 <li><a href="../index.php">Home</a></li>
                 <li style="color: #CD9F60;">Quem Somos?</li>
                 <!-- <li><a href="#">Expertise</a></li> -->
-                <li><a href="../clientes/index.php">Clientes</a></li>
+                <!-- <li><a href="../clientes/index.php">Clientes</a></li> -->
                 <li><a href="../contato/index.php">Contato</a></li>
             </ul> 
         </nav>
@@ -150,7 +150,7 @@
                                 <li>
                                     <!-- <img src="/img/logos/whatsapp-brands-solid-full.svg" class="icone"> -->
                                     <a href="https://wa.me/5581992897888?text=Olá!%20encontrei%20sua%20página%20na%20internet.%20Estou%20precisando%20de%20uma%20assessoria%20jurídica%2C%20pode%20me%20ajudar%3F" target="_blank" style="text-decoration: none; color: #CD9F60;"><b>(81) 9 9289-7888</b></a>
-                                    <a href="../contato/index.php" style="text-decoration: none; color: #CD9F60;"><b>dfadvogados2@gmail.com</b></a>
+                                    <a href="../contato/index.php" style="text-decoration: none; color: #CD9F60;"></br><b>contato@dfassociados.com.br</b></a>
                                     <img src="../img/qrcode/DF Associados_background_colorido_semnome.png" style="max-width: 250px; margin-top: 10px;">  
                                 </li>
                                 <li>
@@ -232,9 +232,9 @@
                             <ul>
                                 <li><a href="#">Home</a></li>
                                 <li><a href="https://www.oab.org.br/" target="_blank" rel="noopener noreferrer">OAB</a></li>
-                                <li><a href="#">Web Para Processos</a></li>
+                                <!-- <li><a href="#">Web Para Processos</a></li> -->
                                 <li><a href="https://www.instagram.com/dfassociados/" target="_blank" rel="noopener noreferrer">Instagram</a></li>
-                                <li><a href="#">Contato</a></li>
+                                <li><a href="../contato/index.php">Contato</a></li>
                             </ul>
                         </div>
 
