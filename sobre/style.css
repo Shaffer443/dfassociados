@@ -442,6 +442,34 @@ footer {
 
 }
 
+/* --- AJUSTE PARA LAPTOPS E TELAS MÉDIAS (ex: 1366px) --- */
+@media (min-width: 769px) and (max-width: 1400px) {
+    aside {
+        margin-left: 50px !important; /* Reduz o recuo da foto para ganhar espaço */
+        width: 280px !important;     /* Diminui levemente a largura da foto */
+        height: 330px !important;    /* Ajusta a altura proporcionalmente */
+    }
+
+    aside img {
+        width: 265px !important;
+        height: 315px !important;
+    }
+
+    main {
+        margin-top: -380px !important; /* Ajusta o 'puxão' para o novo tamanho da foto */
+    }
+
+    .texto {
+        margin-left: 360px !important; /* Cria um corredor fixo para o texto não invadir a foto */
+        margin-right: 50px !important;
+        padding: 30px !important;      /* Reduz o padding para o texto renderizar melhor */
+    }
+
+    .texto h1 {
+        font-size: 2.1em !important;
+    }
+}
+
 /* 4. Ajuste para Celular */
 /* 4. Ajuste para Celular - Quem Somos */
 /* 4. Ajuste para Celular - TOTALMENTE RESPONSIVO */
